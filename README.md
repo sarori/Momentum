@@ -13,11 +13,11 @@ Chrome app momentum with vanilla JS.
 
 ## Functions <a name="functions"></a>
 
-[x] - To Do list
-[x] - Clock
-[x] - Geolocation
-[x] - Weather Information
-[x] - Deploy to Github Pages
+-   To Do list
+-   Clock
+-   Geolocation
+-   Weather Information
+-   Deploy to Github Pages
 
 ## What I used packages <a name="package"></a>
 
