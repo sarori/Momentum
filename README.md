@@ -17,7 +17,6 @@ Chrome app momentum with vanilla JS.
 -   Clock
 -   Geolocation
 -   Weather Information
--   Deploy to Github Pages
 
 ## What I used packages <a name="package"></a>
 

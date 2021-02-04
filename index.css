@@ -3,9 +3,16 @@ body {
 }
 
 .contents {
-	margin-left: 40%;
+	width: 90vw;
+	height: 90vh;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* margin-left: 40%;
 	margin-top: 10%;
-	padding: 3%;
+	padding: 3%; */
 }
 
 .btn {
@@ -18,12 +25,14 @@ body {
 
 .form,
 .greetings {
-	display: none;
+	height: 50%;
+	/* display: none; */
 }
 .showing {
 	display: block;
 	font-size: 20px;
 	padding-left: 10%;
+	height: 50%;
 }
 
 @keyframes fadeIn {
