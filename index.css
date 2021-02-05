@@ -10,6 +10,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	border: solid 1px red;
 	/* margin-left: 40%;
 	margin-top: 10%;
 	padding: 3%; */
@@ -25,14 +26,14 @@ body {
 
 .form,
 .greetings {
-	height: 50%;
-	/* display: none; */
+	/* height: 50%; */
+	border: solid 1px blue;
+	display: none;
 }
 .showing {
 	display: block;
 	font-size: 20px;
-	padding-left: 10%;
-	height: 50%;
+	border: solid 1px yellow;
 }
 
 @keyframes fadeIn {
@@ -65,7 +66,9 @@ body {
 }
 
 .js-toDoForm input {
-	padding-left: 8%;
+	/* padding-left: 50%; */
+	text-align: center;
+	border: solid 1px green;
 }
 
 .js-toDoList {
