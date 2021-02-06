@@ -11,9 +11,6 @@ body {
 	align-items: center;
 	flex-direction: column;
 	border: solid 1px red;
-	/* margin-left: 40%;
-	margin-top: 10%;
-	padding: 3%; */
 }
 
 .btn {
@@ -26,7 +23,6 @@ body {
 
 .form,
 .greetings {
-	/* height: 50%; */
 	border: solid 1px blue;
 	display: none;
 }
@@ -66,7 +62,6 @@ body {
 }
 
 .js-toDoForm input {
-	/* padding-left: 50%; */
 	text-align: center;
 	border: solid 1px green;
 }
