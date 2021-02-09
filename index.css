@@ -10,7 +10,11 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	border: solid 1px red;
+}
+
+.js-clock h1 {
+	color: #3e3e33;
+	font-size: xx-large;
 }
 
 .btn {
@@ -23,13 +27,12 @@ body {
 
 .form,
 .greetings {
-	border: solid 1px blue;
 	display: none;
 }
 .showing {
 	display: block;
-	font-size: 20px;
-	border: solid 1px yellow;
+	font-size: 25px;
+	font-family: monospace;
 }
 
 @keyframes fadeIn {
@@ -63,9 +66,29 @@ body {
 
 .js-toDoForm input {
 	text-align: center;
-	border: solid 1px green;
+	font-family: monospace;
+	border: 0px;
+	font-size: large;
+	line-height: 23px;
+	border-radius: 5px;
+	width: 250px;
+	height: 30px;
 }
 
 .js-toDoList {
-	padding-left: 12%;
+	text-align: middle;
+	font-size: large;
+	font-family: monospace;
+}
+
+#nameinput {
+	font-family: monospace;
+	text-align: center;
+	border: none;
+	border: 0px;
+	background-color: transparent;
+	font-size: large;
+	box-shadow: inset 0 -10px 0 white;
+	line-height: 40px;
+	font-style: oblique;
 }
